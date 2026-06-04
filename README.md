@@ -11,14 +11,16 @@ Requirements:
 Current scope:
 
 - shared combinatorial code for the refined bracelet atlas publication track;
-- the A396630 module and its data/CLI entrypoint;
+- package modules and CLI entrypoints for A396630, A396631, and A396632;
 - standalone OEIS programs for A396630, A396631, and A396632;
 - short docs that can be extended as the sequence family grows.
 
 ## Layout
 
 - `src/oeis_refined_atlas/common.py`: shared combinatorial routines.
-- `src/oeis_refined_atlas/a396630.py`: active sequence module.
+- `src/oeis_refined_atlas/a396630.py`: package module for A396630.
+- `src/oeis_refined_atlas/a396631.py`: package module for A396631.
+- `src/oeis_refined_atlas/a396632.py`: package module for A396632.
 - `programs/a396630.py`: self-contained program suitable for linking from OEIS.
 - `programs/a396631.py`: self-contained program suitable for linking from OEIS.
 - `programs/a396632.py`: self-contained program suitable for linking from OEIS.
@@ -28,21 +30,20 @@ Current scope:
 
 ## Run
 
-After installation, the current sequence can be printed with:
+After installation, the package modules can be printed with:
 
 ```bash
 python -m oeis_refined_atlas.a396630
+python -m oeis_refined_atlas.a396631
+python -m oeis_refined_atlas.a396632
 ```
 
-The standalone OEIS program can also be run directly:
+The installed console scripts are `oeis-a396630`, `oeis-a396631`, and `oeis-a396632`.
+
+The standalone OEIS programs can also be run directly:
 
 ```bash
 python programs/a396630.py
-```
-
-The companion standalone programs are:
-
-```bash
 python programs/a396631.py
 python programs/a396632.py
 ```
