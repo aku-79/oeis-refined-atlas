@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oeis-refined-atlas"
+version = "0.1.0"
+description = "Support code for refined bracelet atlas OEIS submissions"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Andrea Cutri" }]
+
+[project.scripts]
+oeis-refined-atlas = "oeis_refined_atlas.a396630:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
