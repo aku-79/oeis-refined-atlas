@@ -21,9 +21,9 @@ Current scope:
 - `src/oeis_refined_atlas/a396630.py`: package module for A396630.
 - `src/oeis_refined_atlas/a396631.py`: package module for A396631.
 - `src/oeis_refined_atlas/a396632.py`: package module for A396632.
-- `programs/a396630.py`: self-contained program suitable for linking from OEIS.
-- `programs/a396631.py`: self-contained program suitable for linking from OEIS.
-- `programs/a396632.py`: self-contained program suitable for linking from OEIS.
+- `programs/a396630.py`: self-contained program.
+- `programs/a396631.py`: self-contained program.
+- `programs/a396632.py`: self-contained program.
 - `docs/A396630.md`: publication note for the active sequence.
 - `docs/A396631.md`: publication note for A396631.
 - `docs/A396632.md`: publication note for A396632.
