@@ -18,6 +18,7 @@ Current scope:
 
 - `src/oeis_refined_atlas/common.py`: shared combinatorial routines.
 - `src/oeis_refined_atlas/a396630.py`: active sequence module.
+- `programs/a396630.py`: self-contained program suitable for linking from OEIS.
 - `docs/A396630.md`: publication note for the active sequence.
 
 ## Run
@@ -26,4 +27,10 @@ After installation, the current sequence can be printed with:
 
 ```bash
 python -m oeis_refined_atlas.a396630
+```
+
+The standalone OEIS program can also be run directly:
+
+```bash
+python programs/a396630.py
 ```
