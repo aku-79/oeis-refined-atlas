@@ -1,9 +1,11 @@
 # Documentation
 
-This folder holds short public notes for the active OEIS publication track.
+This folder holds short public notes for the OEIS publication tracks.
 
-Current entry:
+Current entries:
 
 - `A396630.md`
+- `A396631.md`
+- `A396632.md`
 
-Future sequences can each have their own note in this folder and be linked from the root README.
+Additional sequence notes will be kept here as the family grows.
