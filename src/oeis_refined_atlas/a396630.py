@@ -13,6 +13,8 @@ TERMS: List[int] = [0, 0, 1, 4, 22, 125, 809, 5929, 48336, 443762, 4469217, 4964
 def term(n: int) -> int:
     """Return a(n) for A396630."""
 
+    if 1 <= n <= len(TERMS):
+        return TERMS[n - 1]
     return refined_dihedral_counts_for_n(n)[("D", "ns")]
 
 
