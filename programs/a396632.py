@@ -1,8 +1,8 @@
 """Self-contained program for OEIS A396632.
 
-A396632 is the (S0, ns) class of the refined bracelet atlas over integer
-partitions. The code uses Sawada's fixed-content necklace generation and then
-classifies each cyclic orbit by reversal type and cyclic stabilizer.
+A396632 is the even-length (S0, ns) class of the refined bracelet atlas over
+integer partitions. The code uses Sawada's fixed-content necklace generation
+and then classifies each cyclic orbit by reversal type and cyclic stabilizer.
 """
 
 from __future__ import annotations
@@ -10,7 +10,7 @@ from __future__ import annotations
 import sys
 
 
-KNOWN_TERMS = [0, 1, 0, 2, 0, 11, 0, 52, 0, 287, 0, 1758]
+KNOWN_TERMS = [1, 2, 11, 52, 287, 1758]
 
 
 def partitions_nonincreasing(n, max_part=None):
@@ -101,7 +101,7 @@ def cyclic_to_dihedral(cyclic_counts):
 
 
 def computed_term(n):
-    return cyclic_to_dihedral(refined_cyclic_counts(n))[("S0", "ns")]
+    return cyclic_to_dihedral(refined_cyclic_counts(2 * n))[("S0", "ns")]
 
 
 def a(n):
@@ -110,7 +110,7 @@ def a(n):
     return computed_term(n)
 
 
-def verify_known_terms(limit=8):
+def verify_known_terms(limit=4):
     computed = [computed_term(n) for n in range(1, limit + 1)]
     expected = KNOWN_TERMS[:limit]
     if computed != expected:

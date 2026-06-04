@@ -1,4 +1,4 @@
-"""A396632: the (S0, ns) class of the refined bracelet atlas."""
+"""A396632: the even-length (S0, ns) class of the refined bracelet atlas."""
 
 from __future__ import annotations
 
@@ -7,7 +7,7 @@ from typing import List
 
 from .common import refined_dihedral_counts_for_n
 
-TERMS: List[int] = [0, 1, 0, 2, 0, 11, 0, 52, 0, 287, 0, 1758]
+TERMS: List[int] = [1, 2, 11, 52, 287, 1758]
 
 
 def term(n: int) -> int:
@@ -15,11 +15,11 @@ def term(n: int) -> int:
 
     if 1 <= n <= len(TERMS):
         return TERMS[n - 1]
-    return refined_dihedral_counts_for_n(n)[("S0", "ns")]
+    return refined_dihedral_counts_for_n(2 * n)[("S0", "ns")]
 
 
 def terms_upto(max_n: int = 12) -> List[int]:
-    """Return the first max_n terms, including leading zeros."""
+    """Return the first max_n terms."""
 
     return [term(n) for n in range(1, max_n + 1)]
 
