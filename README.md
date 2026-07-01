@@ -21,12 +21,15 @@ Current scope:
 - `src/oeis_refined_atlas/a396630.py`: package module for A396630.
 - `src/oeis_refined_atlas/a396631.py`: package module for A396631.
 - `src/oeis_refined_atlas/a396632.py`: package module for A396632.
+- `src/oeis_refined_atlas/a395436.py`: package module for A396633.
 - `programs/a396630.py`: self-contained program.
 - `programs/a396631.py`: self-contained program.
 - `programs/a396632.py`: self-contained program.
+- `programs/a395436.py`: self-contained program.
 - `docs/A396630.md`: publication note for the active sequence.
 - `docs/A396631.md`: publication note for A396631.
 - `docs/A396632.md`: publication note for A396632.
+- `docs/A395436.md`: publication note for A396632.
 
 ## Run
 
@@ -36,6 +39,7 @@ After installation, the package modules can be printed with:
 python -m oeis_refined_atlas.a396630
 python -m oeis_refined_atlas.a396631
 python -m oeis_refined_atlas.a396632
+python -m oeis_refined_atlas.a395436
 ```
 
 The installed console scripts are `oeis-a396630`, `oeis-a396631`, and `oeis-a396632`.
@@ -46,4 +50,5 @@ The standalone OEIS programs can also be run directly:
 python programs/a396630.py
 python programs/a396631.py
 python programs/a396632.py
+python programs/a395436.py
 ```
