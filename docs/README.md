@@ -8,5 +8,6 @@ Current entries:
 - `A396631.md`
 - `A396632.md`
 - `A395436.md`
+- `A396085.md`
 
 Additional sequence notes will be kept here as the family grows.
