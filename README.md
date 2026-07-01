@@ -5,14 +5,12 @@ Public support repository for the refined bracelet atlas OEIS submissions.
 Requirements:
 
 - Python 3.11 or newer;
-- no third-party runtime dependencies at the moment;
-- the repo is run from the existing conda environment `tumm`, not from a dedicated virtualenv.
+- no third-party runtime dependencies;
 
 Current scope:
 
-- shared combinatorial code for the refined bracelet atlas publication track;
-- package modules and CLI entrypoints for A395436, A396630, A396631, and A396632;
-- standalone OEIS programs for A395436, A396630, A396631, and A396632;
+- package modules and CLI entrypoints;
+- standalone OEIS programs;
 - short docs that can be extended as the sequence family grows.
 
 ## Layout
@@ -27,7 +25,7 @@ Current scope:
 - `programs/a396631.py`: self-contained program.
 - `programs/a396632.py`: self-contained program.
 - `docs/A395436.md`: publication note for A395436.
-- `docs/A396630.md`: publication note for the active sequence.
+- `docs/A396630.md`: publication note for A396630.
 - `docs/A396631.md`: publication note for A396631.
 - `docs/A396632.md`: publication note for A396632.
 
@@ -52,3 +50,12 @@ python programs/a396631.py
 python programs/a396632.py
 python programs/a395436.py
 ```
+
+## Acknowledgements
+
+This repository contains code, computational experiments and resources related to a research project in number theory, including integer sequences submitted to OEIS. The main contributors are:
+
+- [Andrea Cutri](https://orcid.org/0009-0007-6158-3501) — project lead, mathematical research, sequences discovery and OEIS submissions.
+- **Giulio Casu** — contributions to mathematical research and investigation.
+- **Anselmo Casu** — contributions to mathematical research, computational experiments and implementation.
+- [Francesca Sotgiu](https://github.com/fran-00) — software development, computational methods, implementation and technical support.
