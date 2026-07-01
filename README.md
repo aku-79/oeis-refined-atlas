@@ -16,18 +16,9 @@ Current scope:
 ## Layout
 
 - `src/oeis_refined_atlas/common.py`: shared combinatorial routines.
-- `src/oeis_refined_atlas/a395436.py`: package module for A395436.
-- `src/oeis_refined_atlas/a396630.py`: package module for A396630.
-- `src/oeis_refined_atlas/a396631.py`: package module for A396631.
-- `src/oeis_refined_atlas/a396632.py`: package module for A396632.
-- `programs/a395436.py`: self-contained program.
-- `programs/a396630.py`: self-contained program.
-- `programs/a396631.py`: self-contained program.
-- `programs/a396632.py`: self-contained program.
-- `docs/A395436.md`: publication note for A395436.
-- `docs/A396630.md`: publication note for A396630.
-- `docs/A396631.md`: publication note for A396631.
-- `docs/A396632.md`: publication note for A396632.
+- `src/oeis_refined_atlas`: package modules for the sequences.
+- `programs`: self-contained programs.
+- `docs`: publication notes.
 
 ## Run
 
@@ -39,8 +30,6 @@ python -m oeis_refined_atlas.a396631
 python -m oeis_refined_atlas.a396632
 python -m oeis_refined_atlas.a395436
 ```
-
-The installed console scripts are `oeis-a395436`, `oeis-a396630`, `oeis-a396631`, and `oeis-a396632`.
 
 The standalone OEIS programs can also be run directly:
 
