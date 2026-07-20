@@ -13,6 +13,14 @@ Current scope:
 - standalone OEIS programs;
 - short docs that can be extended as the sequence family grows.
 
+## Sequence tracks
+
+- `A395436`: aperiodic linear palindromes of odd length;
+- `A396051`: periodic `(S0, sym)` bracelets, obtained from A396632 by a
+  proper-divisor sum;
+- `A396085`: periodic `(S1, sym)` bracelets;
+- `A396630`, `A396631`, `A396632`: refined bracelet classes.
+
 ## Layout
 
 - `src/oeis_refined_atlas/common.py`: shared combinatorial routines.
