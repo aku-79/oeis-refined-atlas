@@ -20,6 +20,7 @@ Current scope:
   proper-divisor sum;
 - `A396085`: periodic `(S1, sym)` bracelets;
 - `A396229`: full-period `(S2, ns)` bracelets of even underlying length;
+- `A396575`: cyclic multiplicity-collapse spectrum;
 - `A396630`, `A396631`, `A396632`: refined bracelet classes.
 
 ## Layout

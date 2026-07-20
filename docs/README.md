@@ -11,5 +11,6 @@ Current entries:
 - `A396085.md`
 - `A396051.md`
 - `A396229.md`
+- `A396575.md`
 
 Additional sequence notes will be kept here as the family grows.
