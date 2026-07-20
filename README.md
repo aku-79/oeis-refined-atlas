@@ -19,6 +19,7 @@ Current scope:
 - `A396051`: periodic `(S0, sym)` bracelets, obtained from A396632 by a
   proper-divisor sum;
 - `A396085`: periodic `(S1, sym)` bracelets;
+- `A396229`: full-period `(S2, ns)` bracelets of even underlying length;
 - `A396630`, `A396631`, `A396632`: refined bracelet classes.
 
 ## Layout
