@@ -39,6 +39,7 @@ python -m oeis_refined_atlas.a396632
 python -m oeis_refined_atlas.a395436
 python -m oeis_refined_atlas.a396085
 python -m oeis_refined_atlas.a396051
+python -m oeis_refined_atlas.a396229
 ```
 
 The standalone OEIS programs can also be run directly:
@@ -50,6 +51,7 @@ python programs/a396632.py
 python programs/a395436.py
 python programs/a396085.py
 python programs/a396051.py
+python programs/a396229.py
 ```
 
 ## Acknowledgements
